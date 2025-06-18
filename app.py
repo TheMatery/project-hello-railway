@@ -8,5 +8,5 @@ def hello():
     return "Hello from Rafa Radhitya Riyanto, 22523079!"
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 8080))  # <- ganti fallback-nya juga boleh ke 8080
     app.run(host="0.0.0.0", port=port)
